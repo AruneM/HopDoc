@@ -15,18 +15,16 @@ function buildDom(htmlString) {
         <main>
           <div class="container">
             <div id="title-box">
-              <h1>Virus Smack</h1>
-            </div>
-            <div id="instructions-box">
-              <h2>Instructions!</h2>
-              <p>
-              Kill viruses by clicking on them, before all the squares fill up(you die instantly). And avoid green viruses, you have 3 lives for that!
-                </p>
+              <h1>Burger Smack</h1>
             </div>
             <div class="input-container">
               <button id="start-btn" class ="button">START</button>
             </div>
           </div>
+          <div id="instructions">
+          <h2>Collect burgers(by clicking on them), before all squares fill up.</h2>
+          </div>
+          <div class="icon">Burger Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </main>`);
   
       document.body.appendChild(splashScreen);
