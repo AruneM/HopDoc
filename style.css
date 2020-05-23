@@ -1,0 +1,45 @@
+
+.container {
+    background-image: url("./img/without.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    height: 448px;
+    width: 598px;
+    color: #f4a785;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#instructions-box h2 {
+    margin-bottom: 0px;
+}
+#title-box h1 {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+#instructions-box p{
+    margin: 5px 150px;
+}
+.button {
+    background-color: #a83432;
+    width: 100px;
+    height: 40px;
+    color: #f4a785;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-color: #f4a785;
+}
+
+#lives h2 {
+    margin: 0;
+    font-size: 22px;
+}
+#score h2 {
+    margin: 0;
+    font-size: 22px;
+}
